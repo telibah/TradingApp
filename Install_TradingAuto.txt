@@ -1,0 +1,34 @@
+Pour installer les dépendances nécessaires et exécuter le script Python de trading, vous pouvez suivre les étapes suivantes :
+
+1. Assurez-vous d'avoir Python installé sur votre système. Vous pouvez télécharger la dernière version de Python à partir du site officiel : https://www.python.org/downloads/
+
+2. Créez un nouvel environnement virtuel pour isoler les dépendances du projet (facultatif mais recommandé). Vous pouvez utiliser l'outil `venv` intégré à Python pour cela. Ouvrez une ligne de commande et exécutez la commande suivante :
+   ```
+   python -m venv trading-env
+   ```
+
+3. Activez l'environnement virtuel. Selon votre système d'exploitation, exécutez la commande appropriée :
+   - Pour Windows :
+     ```
+     trading-env\Scripts\activate
+     ```
+   - Pour macOS/Linux :
+     ```
+     source trading-env/bin/activate
+     ```
+
+4. Téléchargez ou copiez le script Python de trading dans votre répertoire de travail.
+
+5. Installez les dépendances requises en exécutant la commande suivante :
+   ```
+   pip install pandas numpy talib matplotlib
+   ```
+
+6. Une fois les dépendances installées, vous pouvez exécuter le script Python en utilisant la commande :
+   ```
+   python trading_script.py
+   ```
+
+Assurez-vous de remplacer "trading_script.py" par le nom réel du fichier contenant votre script Python de trading.
+
+Ces étapes vous permettront d'installer les dépendances nécessaires et de exécuter le script Python de trading. N'oubliez pas d'adapter le script en fonction de vos besoins spécifiques, tels que le nom du fichier de données et les stratégies de trading.
